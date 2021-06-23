@@ -7,3 +7,4 @@ print "Enter an integer: ";
 chomp ( my $check_for_prime = <STDIN> );
 
 say "$check_for_prime is a prime." if is_prime($check_for_prime);
+say "$check_for_prime is not a prime." if not is_prime($check_for_prime);

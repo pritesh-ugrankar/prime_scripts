@@ -1,0 +1,40 @@
+<p>Respected Monks,</p>
+<p>I'm trying to learn how to create modules, how to test and create a proper module that can be uploaded to CPAN. Not that I would dare to upload this idiotic implementation, but I'm just trying to play with Perl.
+</p>
+<p>Basically, the module checks if the number provided is a prime number or not. I'm using the Math::Prime::Util module to ascertain if my module is working right.</p> 
+<p>The issue I'm facing is, if the supplied number is up to 6 digits, and it indeed is a prime number, my script can check it just fine. But, if the number is a prime number and bigger than 6 digits, the script hangs. However, if the number is NOT a prime number, then it does not matter how big it is, even if it is 16 digits, the script just seems to calculate that in a flash. 
+<p>I know if it's a bad code, it needs to be fixed but I would like to use this opportunity to see if I can use some external module to speed up my script</p>
+<p>Here is the original script I wrote. Again, I know this is a stupid way to calculate the primes.
+<code>use strict;
+use warnings;
+use 5.10.1;
+use bignum;
+
+
+print "Enter the integer: ";
+chomp (my $prime_candidate = <STDIN>) ;
+exit if $prime_candidate <= 0 && say "$prime_candidate is not a prime.";
+my $is_prime = 1;
+foreach my $each_num (2..$prime_candidate) {
+	if ($prime_candidate % $each_num == 0 && $prime_candidate - $each_num != 0 ) {
+    say "$prime_candidate is not a prime";
+    $is_prime = 0;
+    exit;
+  }
+}
+
+say "$prime_candidate is a prime " if  $is_prime != 0;
+</code>
+<p>Given below are the outputs:
+</p>
+<code>
+pritesh@pavilion:~/prime_scripts$ perl time_is_prime_v1.pl 
+Enter the integer: 10000019
+10000019 is a prime 
+The time_is_prime_v1.pl script took 77.56 seconds to finish
+
+
+
+</code>
+<p>
+</p>

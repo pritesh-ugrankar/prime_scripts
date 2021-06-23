@@ -13,9 +13,9 @@ if ($num == 1) {
 } 
 
 my @factors = (1, $num);
-foreach my $prime (2..$num) {
-  if   ($num % $prime == 0 && $num - $prime != 0 ) {
-    my $each_factor = $num / $prime;
+foreach my $each_num (2..$num) {
+  if   ($num % $each_num == 0 && $num - $each_num != 0 ) {
+    my $each_factor = $num / $each_num;
     push @factors,  $each_factor;
     $is_prime = 0;
   }

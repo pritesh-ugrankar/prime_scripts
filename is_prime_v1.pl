@@ -5,15 +5,15 @@ use bignum;
 
 
 print "Enter the integer: ";
-chomp (my $num = <STDIN>) ;
-exit if $num ==1 && say "$num is not a prime.";
+chomp (my $prime_candidate = <STDIN>) ;
+exit if $prime_candidate <= 0 && say "$prime_candidate is not a prime.";
 my $is_prime = 1;
-foreach my $prime (2..$num) {
-  if   ($num % $prime == 0 && $num - $prime != 0 ) {
-    say "$num is not a prime";
+foreach my $each_num (2..$prime_candidate) {
+	if ($prime_candidate % $each_num == 0 && $prime_candidate - $each_num != 0 ) {
+    say "$prime_candidate is not a prime";
     $is_prime = 0;
     exit;
   }
 }
 
-say "$num is a prime " if  $is_prime != 0;
+say "$prime_candidate is a prime " if  $is_prime != 0;

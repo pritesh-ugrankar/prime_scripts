@@ -6,9 +6,9 @@ use 5.10.1;
 my $num = 731;
 
 my $is_prime = 1;
-foreach my $prime (2..$num) {
-  if   ($num % $prime == 0 && $num - $prime != 0 ) {
-    say "$num is not a prime because $num / $prime = ", $num / $prime;
+foreach my $each_num (2..$num) {
+  if   ($num % $each_num == 0 && $num - $each_num != 0 ) {
+    say "$num is not a prime because $num / $each_num = ", $num / $each_num;
     $is_prime = 0;
   }
 }
