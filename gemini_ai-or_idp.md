@@ -1,4 +1,4 @@
-###My question to Gemini:###
+### My question to Gemini: ###
 Hi, I will be 50 this year in August. I have 25 years of experience in IT of which 15 years is in Data Storage. Currently working as a Service Account Manager in Pure Storage and will be handling customers who use Pure Storage arrays as well as Cloud Block Store ( kind of a cloud version of flasharray). I've mostly managed storage products of EMC, a bit of HP 3Par and Pure Storage in the past and have varied work experience right from a Storage Admin to a Tech Lead, Team lead, ops manager and also in storage design and architecture. I'm comfortable with Linux and have done some shell and Perl scripting.
 
 I have a few questions about my career trajectory and up skilling.
@@ -10,7 +10,7 @@ I'm also looking into the Independent Director Program (IDP for short) from the 
 Can you please do a reaserch on these two options and tell me which is better for me in terms of my current skill mapping , relevance to my experience and salary growth? My current salary is 38 lacs INR. 
 Once you ascertain which is the right one for me , can you give me a proper skill upgrade path?
 
-###Gemini's Answer###:
+### Gemini's Answer ###:
 
 It's great that you're proactively thinking about your career at 50, especially with your extensive IT experience. Your background in data storage, leadership, and technical roles provides a solid foundation. Let's break down your questions about AI and the Independent Director Program (IDP).
 
