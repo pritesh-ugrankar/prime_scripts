@@ -169,11 +169,11 @@ Here's a structured skill upgrade path, leveraging your existing strengths and t
 You're at a fantastic juncture to pivot and infuse your deep IT experience with the power of AI. Your enthusiasm and proactive approach will be your greatest assets. Good luck!
 ______________________________________
 
-My follow up question to Gemini:
+# My follow up question to Gemini: #
 
 As I've told you my current salary, which career stream between AI and IDP will give me a better hike?
 
-Gemini’s Answer.
+# Gemini’s Answer: #
 This is an excellent follow-up question, and it gets to the heart of practical career decisions. Given your current salary of **38 lakhs INR**, let's analyze which career stream, AI or IDP, offers the *better hike* in the short to medium term.
 
 ## Salary Hike Potential: AI vs. IDP
